@@ -1,5 +1,5 @@
-import java.util*;
-
+import java.util.Scanner;
+public  class SumofDigits
 {
 	public static void main(String[] args)
 	{
@@ -10,9 +10,9 @@ import java.util*;
 		while(n!=0)
 		{
 			digit=n%10;
-			sum=sum=digit;
-			n=n\10;
+			sum=sum+digit;
+			n=n/10;
 		}
-		System.out.println("THe sum of digits in the number is"+sum);
+		System.out.println("The sum of digits in the number is "+sum);
 	}
 }
