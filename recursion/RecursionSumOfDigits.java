@@ -13,4 +13,8 @@ class RecursionSumOfDigits
 		}
 		return n%10+sum(n/10);
 	}
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> recursion
