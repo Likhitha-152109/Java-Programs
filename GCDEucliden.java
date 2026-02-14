@@ -10,10 +10,10 @@ public class GCDEucliden
 		int b=s.nextInt();
 		while(b!=0)
 		{
-			int temp=a;
+			int temp=b;
 			b=a%b;
 			a=temp;
 		}
-		System.out.println("GCD/HCF="+b);
+		System.out.println("GCD/HCF="+a);
 	}
 }
