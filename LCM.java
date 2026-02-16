@@ -17,7 +17,7 @@ public class LCM
 				break;
 			}
 			lcm++;
-		}
+	    }
 		System.out.println("LCM="+lcm);
 	}
 }
