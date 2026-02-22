@@ -9,10 +9,10 @@ public class RemovingZeroes
 		{
 			if(arr[i]!=0)
 			{
-				System.out.print("Array after removing zeroes and add it to last:"+arr[i]+" ");
+				System.out.print(arr[i]+" ");
 			}
 		}
-		for(i=0;i<arr.length;i++);
+		for(i=0;i<arr.length;i++)
 		{
 			if(arr[i]==0)
 			{
