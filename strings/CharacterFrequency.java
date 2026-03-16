@@ -1,5 +1,5 @@
 import java.util.*;
-public class CharFrequency
+public class CharacterFrequency
 {
 	public static void main(String[] args)
 	{
